@@ -1,9 +1,9 @@
 pipeline{
 	agent any
 	stages{
-		stage("print dog"){
+		stage("print doggy"){
 			steps{
-				sh 'echo dog'
+				sh 'echo doggy'
 			}
 		}
 	}
